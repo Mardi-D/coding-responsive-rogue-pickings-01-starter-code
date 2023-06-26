@@ -195,3 +195,70 @@ footer span {
 	color: #45610E;
 	font-size: 0.875 rem;
 }
+
+/*******BREAKPOINTS***********/
+
+@media all and (min-width: 768px) {
+    /* Tablet styles here */
+	
+	.bottom-section .content-wrapper {
+		justify-content: space-evenly; 
+	}
+.section-one {
+	flex-basis: 30%;
+	
+}
+
+.section-two {
+	/*width: 42%;*/
+	border-left: 5px solid #EEE;
+	border-right: 5px solid #EEE;
+	flex-basis: 30%;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-top: none;
+	border-bottom: none;
+}
+
+.section-three {
+	/*width: 29%;*/
+	flex-basis: 30%;
+}
+
+}
+ 
+@media all and (min-width: 1200px) {
+    /* Desktop styles here */
+
+	body{
+		font-size: 1em;
+	}
+
+	header .content-wrapper {
+		justify-content:space-between ;
+		align-items:center ;
+		padding: 20px 0;
+	  }
+
+	header h1 {
+		/*float: left;*/
+		/*border-bottom: 3px solid #77a466;*/
+		padding: 0;
+		width: 30%;
+		border-bottom: none;
+		text-align: left;
+		
+	}
+
+header nav {
+	/*float: right;*/
+	width: 21%;
+	
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+}
